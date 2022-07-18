@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    共用樣式
+/*------------------------------------*\
+  
+// 容器大小
+
+.container 
+  width: 1200px
+  margin: 0 auto
+  
+.info-title
+  +fontSize(32px,48px,500)
+  margin-bottom: 16px
+  border-bottom: 1px solid black
+  >span
+    +fontSize(24px,36px,600)
+    vertical-align: top
+    color: #A00404
+  
+  &-fill
+    +fontSize(32px,40px,500)
+    padding-bottom: 8px
+    border-bottom: 1px solid #fff
+    >span
+      vertical-align: top
+      +fontSize(24px,36px,600)
+
+.block
+  margin-bottom: 64px
+
+  &-fill
+    padding-top: 24px
+    background-color: #415165
+    color: #fff
+    text-align: center
