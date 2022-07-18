@@ -202,16 +202,16 @@ footer {
   color: #96A9C4;
 }
 
-.contact-social-link {
+.contact-social-item {
   display: inline-block;
   margin-right: 24px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.contact-social-link:last-child {
+.contact-social-item:last-child {
   margin-right: 0;
 }
-.contact-social-link:hover {
+.contact-social-item:hover {
   -webkit-transform: translateY(-8px);
           transform: translateY(-8px);
 }
