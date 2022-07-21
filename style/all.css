@@ -55,6 +55,10 @@ table {
 /*------------------------------------*\
  *  共用樣式 */
 /*------------------------------------*\ */
+img {
+  vertical-align: middle;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -107,7 +111,7 @@ table {
   font-weight: 400;
   display: block;
   padding-bottom: 24px;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   margin-top: 24px;
 }
 
@@ -115,7 +119,6 @@ table {
   padding: 48px 0;
   width: 324px;
   height: 324px;
-  display: block;
 }
 .profile-list-item {
   font-size: 24px;
@@ -136,6 +139,9 @@ table {
   padding-left: 23px;
   border-left: 1px solid #96A9C4;
   margin: 40px 0;
+}
+.skill-list-title {
+  width: 996px;
 }
 .skill-list-item {
   font-size: 24px;
@@ -165,7 +171,7 @@ table {
   font-weight: 500;
 }
 .experience-list-content {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 30px;
   font-weight: 300;
   width: 733px;
@@ -173,7 +179,6 @@ table {
 .experience-list-logo {
   width: 100px;
   height: 100px;
-  display: block;
 }
 
 /*------------------------------------*\
